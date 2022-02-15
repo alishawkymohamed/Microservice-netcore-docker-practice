@@ -1,0 +1,13 @@
+C:\Users\alish\Desktop\E-CommerceMicroServices\src\Orders\Orders.Application\bin\Debug\netcoreapp3.1\Orders.Application.deps.json
+C:\Users\alish\Desktop\E-CommerceMicroServices\src\Orders\Orders.Application\bin\Debug\netcoreapp3.1\Orders.Application.dll
+C:\Users\alish\Desktop\E-CommerceMicroServices\src\Orders\Orders.Application\bin\Debug\netcoreapp3.1\Orders.Application.pdb
+C:\Users\alish\Desktop\E-CommerceMicroServices\src\Orders\Orders.Application\bin\Debug\netcoreapp3.1\Orders.Core.dll
+C:\Users\alish\Desktop\E-CommerceMicroServices\src\Orders\Orders.Application\bin\Debug\netcoreapp3.1\Orders.Core.pdb
+C:\Users\alish\Desktop\E-CommerceMicroServices\src\Orders\Orders.Application\obj\Debug\netcoreapp3.1\Orders.Application.AssemblyInfoInputs.cache
+C:\Users\alish\Desktop\E-CommerceMicroServices\src\Orders\Orders.Application\obj\Debug\netcoreapp3.1\Orders.Application.AssemblyInfo.cs
+C:\Users\alish\Desktop\E-CommerceMicroServices\src\Orders\Orders.Application\obj\Debug\netcoreapp3.1\Orders.Application.csproj.CoreCompileInputs.cache
+C:\Users\alish\Desktop\E-CommerceMicroServices\src\Orders\Orders.Application\obj\Debug\netcoreapp3.1\Orders.Application.csproj.CopyComplete
+C:\Users\alish\Desktop\E-CommerceMicroServices\src\Orders\Orders.Application\obj\Debug\netcoreapp3.1\Orders.Application.dll
+C:\Users\alish\Desktop\E-CommerceMicroServices\src\Orders\Orders.Application\obj\Debug\netcoreapp3.1\Orders.Application.pdb
+C:\Users\alish\Desktop\E-CommerceMicroServices\src\Orders\Orders.Application\obj\Debug\netcoreapp3.1\Orders.Application.csproj.AssemblyReference.cache
+C:\Users\alish\Desktop\E-CommerceMicroServices\src\Orders\Orders.Application\obj\Debug\netcoreapp3.1\Orders.Application.GeneratedMSBuildEditorConfig.editorconfig

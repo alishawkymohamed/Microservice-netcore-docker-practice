@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "gbCdyfkE4D/410PUSW7rryfO+hQPMe4cIPJwZHu2vp55SxsyqUkWuDKC4Q666s7F27iTpgKJ5+/BkGA34Tor3g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\alish\\Desktop\\E-CommerceMicroServices\\src\\Orders\\Orders.Application\\Orders.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alish\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\alish\\.nuget\\packages\\fluentvalidation\\10.3.3\\fluentvalidation.10.3.3.nupkg.sha512",
+    "C:\\Users\\alish\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\alish\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\alish\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

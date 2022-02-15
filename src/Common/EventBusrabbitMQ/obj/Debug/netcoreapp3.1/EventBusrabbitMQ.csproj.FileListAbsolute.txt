@@ -1,0 +1,10 @@
+C:\Users\alish\Desktop\E-CommerceMicroServices\src\Common\EventBusrabbitMQ\bin\Debug\netcoreapp3.1\EventBusrabbitMQ.deps.json
+C:\Users\alish\Desktop\E-CommerceMicroServices\src\Common\EventBusrabbitMQ\bin\Debug\netcoreapp3.1\EventBusrabbitMQ.dll
+C:\Users\alish\Desktop\E-CommerceMicroServices\src\Common\EventBusrabbitMQ\bin\Debug\netcoreapp3.1\EventBusrabbitMQ.pdb
+C:\Users\alish\Desktop\E-CommerceMicroServices\src\Common\EventBusrabbitMQ\obj\Debug\netcoreapp3.1\EventBusrabbitMQ.AssemblyInfoInputs.cache
+C:\Users\alish\Desktop\E-CommerceMicroServices\src\Common\EventBusrabbitMQ\obj\Debug\netcoreapp3.1\EventBusrabbitMQ.AssemblyInfo.cs
+C:\Users\alish\Desktop\E-CommerceMicroServices\src\Common\EventBusrabbitMQ\obj\Debug\netcoreapp3.1\EventBusrabbitMQ.csproj.CoreCompileInputs.cache
+C:\Users\alish\Desktop\E-CommerceMicroServices\src\Common\EventBusrabbitMQ\obj\Debug\netcoreapp3.1\EventBusrabbitMQ.dll
+C:\Users\alish\Desktop\E-CommerceMicroServices\src\Common\EventBusrabbitMQ\obj\Debug\netcoreapp3.1\EventBusrabbitMQ.pdb
+C:\Users\alish\Desktop\E-CommerceMicroServices\src\Common\EventBusrabbitMQ\obj\Debug\netcoreapp3.1\EventBusrabbitMQ.csproj.AssemblyReference.cache
+C:\Users\alish\Desktop\E-CommerceMicroServices\src\Common\EventBusrabbitMQ\obj\Debug\netcoreapp3.1\EventBusrabbitMQ.GeneratedMSBuildEditorConfig.editorconfig

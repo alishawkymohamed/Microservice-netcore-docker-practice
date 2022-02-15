@@ -1,0 +1,16 @@
+C:\Users\alish\Desktop\E-CommerceMicroServices\src\Orders\Orders.Infrastructure\bin\Debug\netcoreapp3.1\Orders.Infrastructure.deps.json
+C:\Users\alish\Desktop\E-CommerceMicroServices\src\Orders\Orders.Infrastructure\bin\Debug\netcoreapp3.1\Orders.Infrastructure.runtimeconfig.json
+C:\Users\alish\Desktop\E-CommerceMicroServices\src\Orders\Orders.Infrastructure\bin\Debug\netcoreapp3.1\Orders.Infrastructure.runtimeconfig.dev.json
+C:\Users\alish\Desktop\E-CommerceMicroServices\src\Orders\Orders.Infrastructure\bin\Debug\netcoreapp3.1\Orders.Infrastructure.dll
+C:\Users\alish\Desktop\E-CommerceMicroServices\src\Orders\Orders.Infrastructure\bin\Debug\netcoreapp3.1\Orders.Infrastructure.pdb
+C:\Users\alish\Desktop\E-CommerceMicroServices\src\Orders\Orders.Infrastructure\bin\Debug\netcoreapp3.1\Orders.Core.dll
+C:\Users\alish\Desktop\E-CommerceMicroServices\src\Orders\Orders.Infrastructure\bin\Debug\netcoreapp3.1\Orders.Core.pdb
+C:\Users\alish\Desktop\E-CommerceMicroServices\src\Orders\Orders.Infrastructure\obj\Debug\netcoreapp3.1\Orders.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\alish\Desktop\E-CommerceMicroServices\src\Orders\Orders.Infrastructure\obj\Debug\netcoreapp3.1\Orders.Infrastructure.AssemblyInfo.cs
+C:\Users\alish\Desktop\E-CommerceMicroServices\src\Orders\Orders.Infrastructure\obj\Debug\netcoreapp3.1\Orders.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\alish\Desktop\E-CommerceMicroServices\src\Orders\Orders.Infrastructure\obj\Debug\netcoreapp3.1\Orders.Infrastructure.csproj.CopyComplete
+C:\Users\alish\Desktop\E-CommerceMicroServices\src\Orders\Orders.Infrastructure\obj\Debug\netcoreapp3.1\Orders.Infrastructure.dll
+C:\Users\alish\Desktop\E-CommerceMicroServices\src\Orders\Orders.Infrastructure\obj\Debug\netcoreapp3.1\Orders.Infrastructure.pdb
+C:\Users\alish\Desktop\E-CommerceMicroServices\src\Orders\Orders.Infrastructure\obj\Debug\netcoreapp3.1\Orders.Infrastructure.genruntimeconfig.cache
+C:\Users\alish\Desktop\E-CommerceMicroServices\src\Orders\Orders.Infrastructure\obj\Debug\netcoreapp3.1\Orders.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\alish\Desktop\E-CommerceMicroServices\src\Orders\Orders.Infrastructure\obj\Debug\netcoreapp3.1\Orders.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig

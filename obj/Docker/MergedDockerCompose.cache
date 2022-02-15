@@ -1,0 +1,123 @@
+services:
+  apigateway:
+    build:
+      context: C:\Users\alish\Desktop\E-CommerceMicroServices
+      dockerfile: src/ApiGateway/ApiGateway/Dockerfile
+    container_name: apigateway
+    depends_on:
+      basket.api:
+        condition: service_started
+      catalog.api:
+        condition: service_started
+      orders.api:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: apigateway
+    ports:
+    - published: 7000
+      target: 80
+    volumes:
+    - /.aspnet/https:/root/.aspnet/https/:rw
+    - /.microsoft/usersecrests:/root/.microsoft/usersecrets:rw
+  basket.api:
+    build:
+      context: C:\Users\alish\Desktop\E-CommerceMicroServices
+      dockerfile: src/Basket/Basket.Api/Dockerfile
+    container_name: basket-api
+    depends_on:
+      basketdb:
+        condition: service_started
+      rabbitmq:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings:Redis: basketdb:6379
+      EventBus:HostName: rabbitmq
+    hostname: basket.api
+    image: basketapi
+    ports:
+    - published: 8001
+      target: 80
+    volumes:
+    - /.aspnet/https:/root/.aspnet/https/:rw
+    - /.microsoft/usersecrests:/root/.microsoft/usersecrets:rw
+  basketdb:
+    container_name: basketdb
+    image: redis
+    ports:
+    - published: 6379
+      target: 6379
+    restart: always
+  catalog.api:
+    build:
+      context: C:\Users\alish\Desktop\E-CommerceMicroServices
+      dockerfile: src/Catalog/Catalog.API/Dockerfile
+    container_name: catalog-api
+    depends_on:
+      catalogdb:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      CatalogDatabaseSettings:ConnectionString: mongodb://catalogdb:27017
+    hostname: catalog.api
+    image: catalogapi
+    ports:
+    - published: 8000
+      target: 80
+    volumes:
+    - /.aspnet/https:/root/.aspnet/https/:rw
+    - /.microsoft/usersecrests:/root/.microsoft/usersecrets:rw
+  catalogdb:
+    container_name: catalogdb
+    image: mongo
+    ports:
+    - published: 27017
+      target: 27017
+    restart: always
+    volumes:
+    - /site:/data/db:rw
+  orderdb:
+    container_name: orderdb
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: P@ssw0rd
+    image: mcr.microsoft.com/mssql/server
+    ports:
+    - published: 1433
+      target: 1433
+    restart: always
+  orders.api:
+    build:
+      context: C:\Users\alish\Desktop\E-CommerceMicroServices
+      dockerfile: src/Orders/Orders.API/Dockerfile
+    container_name: orders-api
+    depends_on:
+      orderdb:
+        condition: service_started
+      rabbitmq:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings__OrderConnection: server=orderdb,1433; Database=OrderDb; User
+        Id=sa; Password=P@ssw0rd
+      EventBus:HostName: rabbitmq
+    hostname: orders.api
+    image: ordersapi
+    ports:
+    - published: 8002
+      target: 80
+    restart: on-failure
+    volumes:
+    - /.aspnet/https:/root/.aspnet/https/:rw
+    - /.microsoft/usersecrests:/root/.microsoft/usersecrets:rw
+  rabbitmq:
+    container_name: rabbitmq
+    image: rabbitmq:3-management-alpine
+    ports:
+    - published: 5672
+      target: 5672
+    - published: 15672
+      target: 15672
+    restart: always
+version: '3.4'
